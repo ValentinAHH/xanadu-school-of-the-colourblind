@@ -1,0 +1,281 @@
+.callout-primary p {
+  text-align: center;
+  color: #e6e6e6;
+}
+
+.callout-primary h2 {
+  text-align: center;
+  color: #e6e6e6;
+}
+
+.callout-primary {
+  background-color: #738678;
+}
+
+/*** sectioning elements ***/
+
+body {
+  background-color: #ffe6cc;
+  text-align: center;
+}
+
+header {
+
+}
+
+main {
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.white {
+  background-color: #fff2e6;
+}
+
+.white {
+  line-height: 30px;
+}
+
+footer {
+  background-color: #738678;
+  text-align: center;
+}
+
+footer a:active {
+  color: #eee;
+}
+
+footer a:hover {
+  color: #eee;
+}
+
+footer a{
+  font-family: 'Noticia Text', serif;
+  color: #262626;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  line-height: 80px;
+  color: #262626;
+}
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  color: #262626;
+}
+
+
+h3 {
+ font-family: 'Playfair Display SC', serif;
+ color: #262626;
+
+}
+
+.small h4 {
+  font-size: 19.75px;
+}
+
+
+h4 {
+      font-family: 'Playfair Display SC', serif;
+      color: #262626;
+      font-size: 20px;
+
+}
+
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.staff p {
+    font-family: 'Noticia Text', serif;
+    color: #262626;
+    font-size: 15px;
+}
+
+.staff h4:hover {
+  color: #738678;
+}
+
+p {
+  font-family: 'Noticia Text', serif;
+  color: #262626;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 35px;
+}
+
+li {
+
+}
+
+a {
+
+}
+
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+/*** Staff Directory ***/
+
+.staff a{
+  text-decoration: none
+}
+
+.staff img {
+  border: 3px solid #e4e5e9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staff img:hover {
+  border: 3px solid #738678;
+}
+
+/*** link styles ***/
+
+
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+@media (max-width: 1150px) {
+
+  h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 38px;
+  }
+
+main {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+}
+
+@media (max-width: 960px) {
+
+  h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 38px;
+  }
+
+main {
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+}
+
+/*** On The Phone ***/
+@media (max-width: 600px) {
+
+  h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 38px;
+  }
+
+main {
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.logo img {
+  width: 96px;
+  height: 96px;
+}
+
+}
+/* Odin Overrides */
+
+.navbar {
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: #738678;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .active-page {
+  color: #fff;
+}
